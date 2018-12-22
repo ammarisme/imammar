@@ -9,7 +9,8 @@
     <ul class="nav navbar-nav">
       <li [ngClass]="{'active' : currentRoute=='profile'}"><a [routerLink]="['/profile']" (click)="menuClicked('profile')"  >Profile</a></li>
       <li [ngClass]="{'active' : currentRoute=='experiences'}"><a [routerLink]="['/experiences']" (click)="menuClicked('experiences')" >Experiences</a></li>
-      <li [ngClass]="{'active' : currentRoute=='skills'}" ><a [routerLink]="['/skills']"  (click)="menuClicked('skills')" >Abilities</a></li>
+      <li [ngClass]="{'active' : currentRoute=='skills'}"><a (click)="menuClicked('skills')" [routerLink]="['/skills']">Skills</a>
+      </li>
       <li [ngClass]="{'active' : currentRoute=='projects'}"><a [routerLink]="['/projects']"  (click)="menuClicked('projects')" >Projects</a></li>
       <!--<li class="blog-link"><a href="http://ImAmmar.com">Blog</a></li>
       <li class="research-blog-link"><a href="http://imammar.com/">Research</a></li>-->

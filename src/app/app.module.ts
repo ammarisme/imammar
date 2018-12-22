@@ -1,26 +1,46 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { ProfileComponent } from './profile/profile.component';
-import { RecentUpdatesComponent } from './recent-updates/recent-updates.component';
-import { ExpeiriencesComponent } from './expeiriences/expeiriences.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ContactComponent } from './contact/contact.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './header/header.component';
+import {ProfileComponent} from './profile/profile.component';
+import {ExpeiriencesComponent} from './expeiriences/expeiriences.component';
+import {SkillsComponent} from './skills/skills.component';
+import {ProjectsComponent} from './projects/projects.component';
+import {ProjectComponent} from './projects/project/project.component';
+import {SkillComponent} from './skills/skill/skill.component';
+import {LanguageComponent} from './skills/language/language.component';
+import {ToolComponent} from './skills/tool/tool.component';
+import {ExpeirienceComponent} from './skills/expeirience/expeirience.component';
+import {EducationsComponent} from './expeiriences/educations/educations.component';
+import {CareersComponent} from './expeiriences/careers/careers.component';
+import {EducationComponent} from './expeiriences/educations/education/education.component';
+import {CareerComponent} from './expeiriences/careers/career/career.component';
+import {RecentComponent} from './recent/recent.component';
+import {RecentNewsComponent} from './recent/recent-news/recent-news.component';
+import {FooterComponent} from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProfileComponent,
-    RecentUpdatesComponent,
     ExpeiriencesComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ProjectComponent,
+    SkillComponent,
+    LanguageComponent,
+    ToolComponent,
+    ExpeirienceComponent,
+    EducationsComponent,
+    CareersComponent,
+    EducationComponent,
+    CareerComponent,
+    RecentComponent,
+    RecentNewsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

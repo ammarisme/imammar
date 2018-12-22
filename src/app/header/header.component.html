@@ -3,8 +3,8 @@
   <div class="container">
     <button class="btn btn-info btn-lg hidden" data-target="#myModal" data-toggle="modal" type="button">Open Modal
     </button>
-    <h1>Ammar Ameerdeen</h1>
-    <p class="lead">C# / Angular / Js / Java full-stack Developer </p>
+    <h1>{{profile.name}}</h1>
+    <p class="lead">{{profile.title}} </p>
     <button class="btn red download-cv" type="button"><span>DOWNLOAD LATEST CV</span></button>
   </div>
   <div class="overlay"></div>
@@ -33,7 +33,7 @@
 
 <app-profile></app-profile>
 
-<app-recent-updates></app-recent-updates>
+<app-recent></app-recent>
 
 <app-expeiriences></app-expeiriences>
 
@@ -41,7 +41,6 @@
 
 <app-projects></app-projects>
 
-<app-contact></app-contact>
 
 <div aria-hidden="true" class="modal fade" id="upgrade-dialog" role="dialog" tabindex="-1">
   <div class="modal-dialog">

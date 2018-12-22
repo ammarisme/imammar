@@ -1,5 +1,5 @@
 <div class="jumbotron background-img" data-position="center center" data-src="/view/images/coffee_animation.gif"
-     id="top" style="height: 589px;">
+     id="top" style="height: 589px;{{backgroundImage}}">
   <div class="container">
     <button class="btn btn-info btn-lg hidden" data-target="#myModal" data-toggle="modal" type="button">Open Modal
     </button>
@@ -9,37 +9,14 @@
   </div>
   <div class="overlay"></div>
 </div>
-<nav class="navbar navbar-default" id="navbar-example" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span
-      class="sr-only">Toggle navigation</span></button>
-  </div>
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#profile">Profile</a></li>
-      <li><a href="#experiences">Experiences</a></li>
-      <li><a href="#skills">Abilities</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li class="blog-link"><a href="http://ImAmmar.com">Blog</a></li>
-      <li class="research-blog-link"><a href="http://imammar.com/">Research</a></li>
-      <li></li>
-    </ul>
-  </div>
-  <!-- /.navbar-collapse -->
-</nav>
 
-<app-profile></app-profile>
+<app-menu-right></app-menu-right>
 
-<app-recent></app-recent>
 
-<app-expeiriences></app-expeiriences>
+<div id="routelet">
+  <router-outlet></router-outlet>
+</div>
 
-<app-skills></app-skills>
-
-<app-projects></app-projects>
 
 
 <div aria-hidden="true" class="modal fade" id="upgrade-dialog" role="dialog" tabindex="-1">

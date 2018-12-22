@@ -20,6 +20,7 @@ import {CareerComponent} from './expeiriences/careers/career/career.component';
 import {RecentComponent} from './recent/recent.component';
 import {RecentNewsComponent} from './recent/recent-news/recent-news.component';
 import {FooterComponent} from './footer/footer.component';
+import {MenuRightComponent} from './menu-right/menu-right.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {FooterComponent} from './footer/footer.component';
     CareerComponent,
     RecentComponent,
     RecentNewsComponent,
-    FooterComponent
+    FooterComponent,
+    MenuRightComponent
   ],
   imports: [
     BrowserModule,

@@ -214,11 +214,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	margin-bottom: 0px;
 	padding: 0px;
 }
-.background-img{
-	background: no-repeat center right fixed url(./images/background.jpg);
-    background-size: cover !important;
-    background-position: center !important;
-}	
+
 /*.jumbotron:before { 
 	border: 1px solid #FFFFFF;
 	bottom: 30px;

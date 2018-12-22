@@ -1,0 +1,80 @@
+<div class="jumbotron background-img" data-position="center center" data-src="/view/images/coffee_animation.gif"
+     id="top" style="height: 589px;">
+  <div class="container">
+    <button class="btn btn-info btn-lg hidden" data-target="#myModal" data-toggle="modal" type="button">Open Modal
+    </button>
+    <h1>Ammar Ameerdeen</h1>
+    <p class="lead">C# / Angular / Js / Java full-stack Developer </p>
+    <button class="btn red download-cv" type="button"><span>DOWNLOAD LATEST CV</span></button>
+  </div>
+  <div class="overlay"></div>
+</div>
+<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span
+      class="sr-only">Toggle navigation</span></button>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#profile">Profile</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#skills">Abilities</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="blog-link"><a href="http://ImAmmar.com">Blog</a></li>
+      <li class="research-blog-link"><a href="http://imammar.com/">Research</a></li>
+      <li></li>
+    </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+</nav>
+
+<app-profile></app-profile>
+
+<app-recent-updates></app-recent-updates>
+
+<app-expeiriences></app-expeiriences>
+
+<app-skills></app-skills>
+
+<app-projects></app-projects>
+
+<app-contact></app-contact>
+
+<div aria-hidden="true" class="modal fade" id="upgrade-dialog" role="dialog" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Your browser is out of date</h4>
+      </div>
+      <div class="modal-body">
+        <p>To get the best possible experience using our site we recommend that you upgrade to a modern web browser. To
+          download a newer web browser click on the Upgrade button.</p>
+      </div>
+      <div class="modal-footer"><a class="btn btn-primary" href="http://browsehappy.com/" target="_blank">Upgrade</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal" type="button">&times;</button>
+        <h4 class="modal-title">Thank you!</h4>
+      </div>
+      <div class="modal-body">
+        <p>Can I get to know you.?</p>
+        <input class="form-control" id="user-email" placeholder="You email" type="text"/>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+        <button class="btn btn-primary" data-dismiss="modal" type="button">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
